@@ -1,0 +1,15 @@
+{
+  "originHash" : "c10b4449ebfd8c66765d9fc91097eac95eb284ecb69cbe6947be652183430808",
+  "pins" : [
+    {
+      "identity" : "viewinspector",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nalexn/ViewInspector",
+      "state" : {
+        "revision" : "7b1732802ffe30e6a67754bda6c7819e5cb0eb70",
+        "version" : "0.9.11"
+      }
+    }
+  ],
+  "version" : 3
+}

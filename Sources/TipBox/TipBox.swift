@@ -3,7 +3,9 @@ import SwiftUI
 public struct TipBox: View {
     let tip: TipInfo // TipInfomation
     let isShowAnimationEnabled: Bool // Show animation flag(true: show animation, false: not show animation)
-    @State private var isVisible: Bool = false // TipBox visibility flag(true: visible, false: invisible)
+    @State var isVisible: Bool = false // TipBox visibility flag(true: visible, false: invisible)
+
+    let inspection = Inspection<Self>() // For ViewInspector Tests
 
     /// initialize
     /// - Parameters:
